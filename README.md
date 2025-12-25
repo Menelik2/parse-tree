@@ -46,7 +46,8 @@ S
               
 🌳 Step 3: Parse Tree Construction
 Hierarchical Structure
-            ```mermaid
+        
+```mermaid
 graph TD
     subgraph "Parse Tree"
         S[S]
@@ -69,6 +70,8 @@ graph TD
         A3 --> ε
     end
 ```
+  
+
 
 🧠 Explanation of Tree
 
