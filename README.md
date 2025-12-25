@@ -43,11 +43,32 @@ S
 
 ✔ Final string: aab
 
-
               
-              <img width="337" height="441" alt="image" src="https://github.com/user-attachments/assets/24a8c193-349b-4230-8f62-7894b25b6586" />
-
-              
+🌳 Step 3: Parse Tree Construction
+Hierarchical Structure
+            ```mermaid
+graph TD
+    subgraph "Parse Tree"
+        S[S]
+        A1[A]
+        B1[B]
+        a1[a]
+        A2[A]
+        b1[b]
+        a2[a]
+        A3[A]
+        ε[ε]
+        
+        S --> A1
+        S --> B1
+        A1 --> a1
+        A1 --> A2
+        B1 --> b1
+        A2 --> a2
+        A2 --> A3
+        A3 --> ε
+    end
+```
 
 🧠 Explanation of Tree
 
