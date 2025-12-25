@@ -43,28 +43,11 @@ S
 
 ✔ Final string: aab
 
-🌳 Step 3: Parse Tree Construction
-Hierarchical Structure
-            S
-           / \
-          A   B
-         / \   \
-        a   A   b
-           / \
-          a   A
-              |
-              ε
 
-🧾 Step 4: ASCII Parse Tree (Exam-Friendly)
-           S
-         /   \
-        A     B
-      /   \     \
-     a     A     b
-         /   \
-        a     A
-              |
-              ε
+              
+              <img width="337" height="441" alt="image" src="https://github.com/user-attachments/assets/24a8c193-349b-4230-8f62-7894b25b6586" />
+
+              
 
 🧠 Explanation of Tree
 
